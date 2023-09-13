@@ -1,12 +1,23 @@
-#登录sudo ssh -i /home/mw/project/pazhou_045 pazhou_045@172.18.3.12
+#登录，除了在平台间传递文件以外，其它操作都要首先登录
+sudo ssh -i /home/mw/project/pazhou_045 pazhou_045@172.18.3.12
 
-#登录后位于 /work/home/pazhou_045 
+##登录后位于 /work/home/pazhou_045 
 ，这是您在DCU登录节点的个人空间，请务必确保文件、数据和成果都放在该目录下
-#数据所在文件夹
+##训练数据所在文件夹
 cd /public/pazhou/pazhou_data/train
 
-#1. 加载DCU所需的环境
 
+#2 申请计算节点，登录必须要申请节点，因为驱动程序都是针对GPU的。
+
+##1. whichpartition #查看可用队列（选）
+
+##2. salloc申请计算节点，统一的
+DCU队列申请：	   salloc -p xahdexclu04 -N 1 -n 8 --gres=dcu:1  
+
+##3.登录到节点,具体节点需要查看申请的输出
+ssh c15r3n08
+
+#3. 加载DCU所需的环境
 module purge # 加载前使用module purge清理环境
 module list # 查看当前环境，运行 module purge 之后显示 No Modulefiles Currently Loaded.
 
@@ -27,35 +38,23 @@ cd /public/software/apps/DeepLearning/whl/dtk-22.10/
 #国内节点
 -i https://pypi.tuna.tsinghua.edu.cn/simple 
 
-#运行脚本，测试用例
-cd
-cp -r /public/software/apps/DeepLearning/Benchmark/PyTorch/mnist/ .
-cd mnist
+#获取和传递文件不需要登录
 
-
-5.2 申请计算节点，调试程序
-
-1. whichpartition 查看可用队列
-
-2. salloc申请计算节点
-例如DCU队列申请：	   salloc -p xahdexclu04 -N 1 -n 8 --gres=dcu:1   
-
-3.登录到节点
-ssh c15r3n08
-#获取单个文件
+#获取单个文件，到个人平台
 sudo scp -i /home/mw/project/pazhou_045  pazhou_045@172.18.3.12:/public/pazhou/pazhou_data/train/data/case5.nii.gz /home/mw/project/data/
 #mask
 sudo scp -i /home/mw/project/pazhou_045  pazhou_045@172.18.3.12:/public/pazhou/pazhou_data/train/mask/case5_mask.nii.gz /home/mw/project/mask/
 #zip
 sudo scp -i /home/mw/project/pazhou_045  pazhou_045@172.18.3.12:/work/home/pazhou_045/submit.zip /home/mw/project
-##上传单个文件
+
+##上传单个文件，到超算平台
 sudo scp -i /home/mw/project/pazhou_045 /home/mw/project/check_data.py pazhou_045@172.18.3.12:/work/home/pazhou_045
 sudo scp -i /home/mw/project/pazhou_045 /home/mw/project/roi_from_seg.py pazhou_045@172.18.3.12:/work/home/pazhou_045
 sudo scp -i /home/mw/project/pazhou_045 /home/mw/project/seg_3d.py pazhou_045@172.18.3.12:/work/home/pazhou_045
 sudo scp -i /home/mw/project/pazhou_045 /home/mw/project/class_3d_train.py pazhou_045@172.18.3.12:/work/home/pazhou_045
 
 
-#查看作业
+#查看作业，需登录
 squeue
 #取消作业
 scancel 6128666
@@ -67,11 +66,3 @@ sinfo -p xahdexclu04
 #排除节点
 #SBATCH -x 节点号
 
-#意见：
-1.模型输入大小（64,64,16）是否太小，可否调成（96,96,96）
-2.weight_decay 对模型性能影响较大，建议使用dropout，数据增强（RandAffined），减小模型复杂度等进行正则化。
-3.损失函数可以尝试用TverskyLoss,focalTverskyLoss 或者dicefocalloss 更利于发现小目标。
-4.Batchsize 为1，是否可调高？
-5.learning rate 起始为 0.0001，是否可调高，比如0.01。
-6.Learning rate 需逐步减小，未见对Learning rate
-的优化。
