@@ -1,0 +1,1681 @@
+{
+    "description": "train",
+    "labels": {
+        "0": "liver",
+        "1": "spleen",
+        "2": "left kidney",
+        "3": "right kidney"
+    },
+    "licence": "yt",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "btcv",
+    "numTest": 50,
+    "numTraining": 350,
+    "tensorImageSize": "3D",
+    "test": [
+        "/public/pazhou/pazhou_data/preliminary_test/case454.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case455.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case456.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case457.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case458.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case459.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case460.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case461.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case462.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case463.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case464.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case465.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case466.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case467.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case468.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case469.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case470.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case471.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case472.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case473.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case474.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case475.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case476.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case477.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case478.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case479.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case480.nii.gz",       
+        "/public/pazhou/pazhou_data/preliminary_test/case481.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case482.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case483.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case484.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case485.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case486.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case487.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case488.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case489.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case490.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case491.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case492.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case493.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case494.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case495.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case496.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case497.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case498.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case499.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case500.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case501.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case502.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case503.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case504.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case505.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case506.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case507.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case508.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case509.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case510.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case511.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case512.nii.gz",       
+        "/public/pazhou/pazhou_data/preliminary_test/case513.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case514.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case515.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case516.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case517.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case518.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case519.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case520.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case521.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case522.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case523.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case524.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case525.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case526.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case527.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case528.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case529.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case530.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case531.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case532.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case533.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case534.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case535.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case536.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case537.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case538.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case539.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case540.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case541.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case542.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case543.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case544.nii.gz",       
+        "/public/pazhou/pazhou_data/preliminary_test/case545.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case546.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case547.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case548.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case549.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case1.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case1_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case2.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case2_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case3.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case3_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case4.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case4_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case5.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case5_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case6.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case6_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case7.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case7_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case8.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case8_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case9.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case9_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case10.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case10_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case11.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case11_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case12.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case12_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case13.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case13_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case14.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case14_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case15.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case15_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case16.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case16_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case17.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case17_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case18.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case18_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case19.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case19_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case20.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case20_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case21.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case21_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case22.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case22_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case23.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case23_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case24.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case24_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case25.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case25_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case26.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case26_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case27.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case27_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case28.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case28_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case29.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case29_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case30.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case30_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case31.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case31_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case32.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case32_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case33.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case33_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case34.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case34_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case35.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case35_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case36.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case36_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case37.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case37_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case38.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case38_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case39.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case39_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case40.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case40_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case41.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case41_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case42.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case42_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case43.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case43_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case44.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case44_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case45.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case45_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case46.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case46_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case47.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case47_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case48.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case48_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case49.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case49_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case50.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case50_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case51.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case51_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case52.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case52_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case53.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case53_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case54.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case54_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case55.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case55_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case56.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case56_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case57.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case57_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case58.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case58_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case59.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case59_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case60.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case60_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case61.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case61_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case62.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case62_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case63.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case63_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case64.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case64_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case65.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case65_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case66.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case66_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case67.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case67_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case68.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case68_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case69.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case69_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case70.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case70_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case71.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case71_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case72.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case72_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case73.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case73_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case74.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case74_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case75.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case75_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case76.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case76_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case77.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case77_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case78.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case78_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case79.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case79_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case80.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case80_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case91.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case91_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case92.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case92_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case93.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case93_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case94.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case94_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case95.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case95_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case96.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case96_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case97.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case97_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case98.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case98_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case99.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case99_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case100.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case100_mask.nii.gz"
+
+        },       
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case101.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case101_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case102.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case102_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case103.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case103_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case104.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case104_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case105.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case105_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case106.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case106_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case107.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case107_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case108.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case108_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case109.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case109_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case110.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case110_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case111.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case111_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case112.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case112_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case113.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case113_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case114.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case114_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case115.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case115_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case116.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case116_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case117.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case117_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case118.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case118_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case119.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case119_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case120.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case120_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case121.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case121_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case122.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case122_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case123.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case123_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case124.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case124_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case125.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case125_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case126.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case126_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case127.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case127_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case128.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case128_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case129.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case129_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case130.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case130_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case131.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case131_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case132.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case132_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case133.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case133_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case134.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case134_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case135.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case135_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case136.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case136_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case137.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case137_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case138.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case138_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case139.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case139_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case140.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case140_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case141.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case141_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case142.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case142_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case143.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case143_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case144.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case144_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case145.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case145_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case146.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case146_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case147.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case147_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case148.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case148_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case149.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case149_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case150.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case150_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case151.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case151_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case152.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case152_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case153.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case153_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case154.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case154_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case155.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case155_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case156.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case156_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case157.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case157_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case158.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case158_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case159.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case159_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case160.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case160_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case161.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case161_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case162.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case162_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case163.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case163_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case164.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case164_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case165.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case165_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case166.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case166_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case167.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case167_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case168.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case168_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case169.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case169_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case170.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case170_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case171.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case171_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case172.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case172_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case173.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case173_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case174.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case174_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case175.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case175_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case176.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case176_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case177.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case177_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case178.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case178_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case179.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case179_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case180.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case180_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case181.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case181_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case182.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case182_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case183.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case183_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case184.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case184_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case185.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case185_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case186.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case186_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case187.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case187_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case188.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case188_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case189.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case189_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case190.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case190_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case191.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case191_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case192.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case192_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case193.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case193_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case194.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case194_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case195.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case195_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case196.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case196_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case197.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case197_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case198.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case198_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case199.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case199_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case200.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case200_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case201.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case201_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case202.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case202_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case203.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case203_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case204.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case204_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case205.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case205_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case206.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case206_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case207.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case207_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case208.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case208_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case209.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case209_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case210.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case210_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case211.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case211_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case212.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case212_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case213.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case213_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case214.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case214_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case215.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case215_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case216.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case216_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case217.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case217_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case218.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case218_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case219.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case219_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case220.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case220_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case221.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case221_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case222.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case222_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case223.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case223_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case224.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case224_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case225.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case225_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case226.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case226_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case227.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case227_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case228.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case228_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case229.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case229_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case230.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case230_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case231.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case231_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case232.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case232_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case233.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case233_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case234.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case234_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case235.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case235_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case236.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case236_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case237.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case237_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case238.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case238_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case239.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case239_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case240.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case240_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case241.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case241_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case242.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case242_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case243.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case243_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case244.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case244_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case245.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case245_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case246.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case246_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case247.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case247_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case248.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case248_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case249.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case249_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case250.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case250_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case251.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case251_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case252.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case252_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case253.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case253_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case254.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case254_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case255.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case255_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case256.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case256_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case257.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case257_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case258.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case258_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case259.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case259_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case260.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case260_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case261.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case261_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case262.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case262_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case263.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case263_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case264.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case264_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case265.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case265_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case266.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case266_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case267.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case267_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case268.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case268_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case269.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case269_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case270.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case270_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case271.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case271_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case272.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case272_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case273.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case273_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case274.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case274_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case275.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case275_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case276.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case276_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case277.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case277_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case278.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case278_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case279.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case279_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case280.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case280_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case281.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case281_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case282.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case282_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case283.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case283_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case284.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case284_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case285.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case285_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case286.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case286_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case287.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case287_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case288.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case288_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case289.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case289_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case290.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case290_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case291.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case291_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case292.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case292_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case293.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case293_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case294.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case294_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case295.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case295_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case296.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case296_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case297.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case297_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case298.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case298_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case299.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case299_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case300.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case300_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case301.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case301_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case302.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case302_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case303.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case303_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case304.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case304_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case305.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case305_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case306.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case306_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case307.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case307_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case308.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case308_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case309.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case309_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case310.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case310_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case311.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case311_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case312.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case312_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case313.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case313_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case314.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case314_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case315.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case315_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case316.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case316_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case317.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case317_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case318.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case318_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case319.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case319_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case320.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case320_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case321.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case321_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case322.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case322_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case323.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case323_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case324.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case324_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case325.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case325_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case326.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case326_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case327.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case327_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case328.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case328_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case329.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case329_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case330.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case330_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case331.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case331_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case332.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case332_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case333.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case333_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case334.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case334_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case335.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case335_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case336.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case336_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case337.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case337_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case338.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case338_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case339.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case339_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case340.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case340_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case341.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case341_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case342.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case342_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case343.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case343_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case344.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case344_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case345.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case345_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case346.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case346_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case347.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case347_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case348.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case348_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case349.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case349_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case350.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case350_mask.nii.gz"
+        }
+    ],
+    "validation": [
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case400.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case400_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case399.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case399_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case398.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case398_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case397.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case397_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case396.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case396_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case395.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case395_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case394.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case394_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case393.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case393_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case392.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case392_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case391.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case391_mask.nii.gz"
+        },
+                {
+            "image": "/public/pazhou/pazhou_data/train/data/case390.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case390_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case389.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case389_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case388.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case388_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case387.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case387_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case386.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case386_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case385.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case385_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case384.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case384_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case383.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case383_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case382.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case382_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case381.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case381_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case380.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case380_mask.nii.gz"
+        },        {
+            "image": "/public/pazhou/pazhou_data/train/data/case379.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case379_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case378.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case378_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case377.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case377_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case376.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case376_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case375.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case375_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case374.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case374_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case373.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case373_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case372.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case372_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case371.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case371_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case370.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case370_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case369.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case369_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case368.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case368_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case367.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case367_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case366.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case366_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case365.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case365_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case364.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case364_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case363.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case363_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case362.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case362_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case361.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case361_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case360.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case360_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case359.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case359_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case358.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case358_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case357.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case357_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case356.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case356_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case355.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case355_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case354.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case354_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case353.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case353_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case352.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case352_mask.nii.gz"
+        },
+        {
+            "image": "/public/pazhou/pazhou_data/train/data/case351.nii.gz",
+            "label": "/public/pazhou/pazhou_data/train/mask/case351_mask.nii.gz"
+        }
+
+    ]
+}
+    
