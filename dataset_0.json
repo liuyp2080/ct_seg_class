@@ -1,10 +1,11 @@
 {
     "description": "train",
     "labels": {
-        "0": "liver",
-        "1": "spleen",
-        "2": "left kidney",
-        "3": "right kidney"
+        "0": "background",
+        "1": "liver",
+        "2": "spleen",
+        "3": "left kidney",
+        "4":"right kidney"
     },
     "licence": "yt",
     "modality": {
@@ -15,6 +16,10 @@
     "numTraining": 350,
     "tensorImageSize": "3D",
     "test": [
+        "/public/pazhou/pazhou_data/preliminary_test/case450.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case451.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case452.nii.gz",
+        "/public/pazhou/pazhou_data/preliminary_test/case453.nii.gz",
         "/public/pazhou/pazhou_data/preliminary_test/case454.nii.gz",
         "/public/pazhou/pazhou_data/preliminary_test/case455.nii.gz",
         "/public/pazhou/pazhou_data/preliminary_test/case456.nii.gz",
